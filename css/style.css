@@ -23,11 +23,11 @@ ul li{
 	margin: 0px 0px;
 }
 /*header section css start*/
-.header-section{
-    background: linear-gradient(90deg, rgba(0,149,177,1) 8%, rgba(0,160,175,1) 32%, rgba(0,164,184,1) 58%, rgba(0,121,135,1) 76%, rgba(0,112,136,1) 94%);
+.header-section {
+    background: linear-gradient(90deg, rgb(0 148 178) 8%, rgb(0 147 173) 20%, rgb(47 165 178) 32%, rgb(154 213 215) 50%, rgb(157 215 218) 60%, rgb(0 115 135) 76%, rgb(0 109 135) 94%);
 }
 .header-section .navbar-brand img{
-	width: 50%;
+	width: 42%;
 }
 .header-section .bg-light {
     background-color: transparent!important;
@@ -46,13 +46,13 @@ ul li{
 }
 /*header section css end*/
 /*banner section css start*/
-.banner-section{
+.banner-section {
     width: 100%;
     height: 100vh;
     background: url(../images/header-bg.png) left center no-repeat;
     background-size: cover;
 }
-.banner-section .banner-inner-left{
+.banner-section .banner-inner-left {
     padding-top: 165px;
 }
 .banner-section .banner-inner-left h1 {
@@ -114,3 +114,48 @@ ul li{
     font-weight: 400;
 }
 /*banner section css end*/
+/*Lifeguard section css start*/
+.lifeguard-section {
+    width: 100%;
+    text-align: center;
+    padding: 90px 0px;
+}
+.lifeguard-section .lifeguard-inner-1 img {
+    margin: 0px 0px 35px 0px;
+}
+.lifeguard-section .lifeguard-inner-2 img {
+    margin: 50px 0px 35px 0px;
+}
+.lifeguard-section .lifeguard-inner-3 img {
+    margin: 46px 0px 35px 0px;
+}
+.lifeguard-section .lifeguard-inner-1 h3,
+.lifeguard-section .lifeguard-inner-2 h3,
+.lifeguard-section .lifeguard-inner-3 h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000000;
+}
+.lifeguard-section .lifeguard-inner-1 p,
+.lifeguard-section .lifeguard-inner-2 p,
+.lifeguard-section .lifeguard-inner-3 p{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+}
+/*Lifeguard section css end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
