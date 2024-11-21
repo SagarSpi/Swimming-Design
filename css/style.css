@@ -147,7 +147,72 @@ ul li{
     font-weight: 400;
 }
 /*Lifeguard section css end*/
-
+/*OUR COURSES section css start*/
+.our-courses-section {
+    width: 100%;
+    background: #432e8b;
+    padding: 40px 0px 90px 0px;
+}
+.our-courses-section .our-courses-title{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+}
+.our-courses-section .our-courses-title h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.our-courses-section .our-courses-inner{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.our-courses-section .our-courses-inner h3 {
+    color: #00dde4;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 20px 0px 15px 0px;
+}
+.our-courses-section .our-courses-inner p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 16px;
+}
+.our-courses-section .our-courses-inner a {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #adafb9;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 7px 24px;
+    border-radius: 1px;
+}
+.our-courses-section .our-courses-inner a:hover{
+    background: #e550ed;
+    color: #000000;
+    border: 1px solid #e550ed;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.our-courses-section .our-courses-inner .logo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+.our-courses-section .our-courses-inner .logo-position {
+    position: absolute;
+    bottom: -217px;
+    right: 0%;
+}
+/*OUR COURSES section css end*/
 
 
 
