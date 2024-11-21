@@ -213,7 +213,57 @@ ul li{
     right: 0%;
 }
 /*OUR COURSES section css end*/
-
+/*about us section css start*/
+.about-us-section{
+    width: 100%;
+    background: url(../images/about--bg.png) left center no-repeat;
+    background-size: cover;
+}
+.about-us-section .about-us-inner {
+    width: 100%;
+    padding: 94px 0px 190px 0px;
+}
+.about-us-section .about-us-inner h2{
+    color: #00dde4;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.about-us-section .about-us-inner h3 {
+    color: #444444;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 28px;
+}
+.about-us-section .about-us-inner p {
+    color: #444444;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 6px 0px 25px 0px;
+}
+.about-us-section .about-us-inner a{
+    background: transparent;
+    color: #444444;
+    border: 1px solid #0e37e8;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 7px 24px;
+    border-radius: 1px;
+}
+.about-us-section .about-us-inner a:hover{
+    background: #e550ed;
+    color: #fff;
+    border: 1px solid #e550ed;
+    cursor: pointer;
+    transition: .3s linear;
+}
+/*about us section css end*/
 
 
 
