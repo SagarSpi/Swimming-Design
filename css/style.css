@@ -412,7 +412,44 @@ ul li{
     font-size: 18px;
 }
 /*our gallery section css end*/
-
+/*download-app-section  css start*/
+.download-app-section{
+    width: 100%;
+    background: url(../images/app-bg.png) left top no-repeat;
+    background-size: cover;
+}
+.download-app-section .download-app-inner {
+    width: 100%;
+    padding: 110px 0px 56px 0px;
+    text-align: center;
+}
+.download-app-section .download-app-inner h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 465px;
+    padding-right: 17px;
+}
+.download-app-section .download-app-inner a {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #0626e8;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 7px 24px;
+    border-radius: 1px;
+    margin-right: 24px;
+}
+.download-app-section .download-app-inner a:hover{
+    background: #e550ed;
+    color: #000000;
+    border: 1px solid #e550ed;
+    cursor: pointer;
+    transition: .3s linear;
+}
+/*download-app-section  css end*/
 
 
 
