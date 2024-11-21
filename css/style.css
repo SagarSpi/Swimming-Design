@@ -358,7 +358,26 @@ ul li{
     left: 11%;
 }
 /*OUR INSTRUCTORS section css end*/
-
+/*CLIENTS REVIEWS section css start*/
+.client-section{
+    width: 100%;
+}
+.client-section .carousel-caption {
+    bottom: 6.25rem;
+}
+.client-section .carousel-item .client-details h1 {
+    color: #00dde4;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+.client-section .carousel-item .client-details p i {
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 300;
+}
+/*CLIENTS REVIEWS section css end*/
 
 
 
