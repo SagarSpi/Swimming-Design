@@ -264,7 +264,100 @@ ul li{
     transition: .3s linear;
 }
 /*about us section css end*/
-
+/*OUR INSTRUCTORS section css start*/
+.instructor-section{
+    width: 100%;
+    background: #432e8b;
+    padding-bottom: 50px;
+}
+.instructor-section .instructor-title {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px 60px 0px;
+}
+.instructor-section .instructor-title h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.instructor-section .instructor-inner .owl-carousel .owl-item img {
+    width: 100%;
+    height: 550px;
+}
+.instructor-section .instructor-inner .owl-theme .owl-dots .owl-dot span {
+    width: 0px;
+    height: 0px;
+    margin: 0px 0px;
+    background: none;
+}
+.instructor-section .instructor-inner .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    color: transparent !important;
+}
+.instructor-section .instructor-inner .item .item-inner-parent {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+.instructor-section .instructor-inner .item .item-inner-parent .item-inner-child {
+    width: 100%;
+    position: absolute;
+    bottom: 6px;
+    left: 0%;
+}
+.instructor-section .instructor-inner .item .item-inner-parent .item-inner-child ul li{
+    display: inline;
+}
+.instructor-section .instructor-inner .item .item-inner-parent .item-inner-child ul li a i {
+    background: #fff;
+    color: #432e8b;
+    font-size: 17px;
+    padding: 7px 9px;
+    margin: 5px 2px 0px 2px;
+    border-radius: 31px;
+}
+.instructor-section .instructor-inner .item .item-inner-parent .item-inner-child .fa:hover{
+    color: #fff;
+    background: #432e8b;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.instructor-section .instructor-inner .item .item-inner-parent .item-inner-child .item-inner-text {
+    width: 100%;
+    background: #00dde4;
+    padding: 5px 0px 3px 0px;
+    box-shadow: 1px 3px 10px #171f80;
+}
+.instructor-section .instructor-inner .item .item-inner-parent .item-inner-child .item-inner-text h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.instructor-section .instructor-inner .item .item-inner-parent .item-inner-child .item-inner-text p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+}
+.instructor-section .instructor-title .logo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+.instructor-section .instructor-title .logo-position {
+    position: absolute;
+    bottom: -75px;
+    left: 11%;
+}
+/*OUR INSTRUCTORS section css end*/
 
 
 
