@@ -24,6 +24,7 @@ ul li{
 }
 /*header section css start*/
 .header-section {
+    width: 100%;
     background: linear-gradient(90deg, rgb(0 148 178) 8%, rgb(0 147 173) 20%, rgb(47 165 178) 32%, rgb(154 213 215) 50%, rgb(157 215 218) 60%, rgb(0 115 135) 76%, rgb(0 109 135) 94%);
 }
 .header-section .navbar-brand img{
