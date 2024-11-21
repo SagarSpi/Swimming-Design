@@ -504,7 +504,85 @@ ul li{
     left: 11%;
 }
 /*REGISTER NOW section css end*/
-
+/*footer section css start*/
+.footer-section{
+    width: 100%;
+    background: #432e8b;
+}
+.footer-section .bdr{
+    width: 100%;
+    border: 1px solid #fff;
+}
+.footer-section .footer-left {
+    width: 100%;
+    padding: 60px 0px 50px 0px;
+}
+.footer-section .footer-left h2 {
+    color: #00dde4;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 900;
+    padding: 20px 0px 15px 0px;
+}
+.footer-section .footer-left p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.footer-section .footer-middle {
+    width: 100%;
+    padding: 135px 0px 0px 0px;
+}
+.footer-section .footer-middle h3 {
+    color: #00dde4;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.footer-section .footer-middle ul li {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 2px 0px;
+}
+.footer-section .footer-right{
+    width: 100%;
+    padding: 135px 0px 0px 0px;
+}
+.footer-section .footer-right h3{
+    color: #00dde4;
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.footer-section .footer-right .contact-section ul li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 26px;
+}
+.footer-section .footer-right .icon-section ul li{
+    display: inline;
+}
+.footer-section .footer-right .icon-section ul li a i {
+    background: #fff;
+    color: #432e8b;
+    font-size: 17px;
+    padding: 7px 9px;
+    margin: 22px 2px 0px 2px;
+    border-radius: 31px;
+}
+.footer-section .footer-right .icon-section ul li a i:hover{
+    background: #432e8b;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+}
+/*footer section css end*/
 
 
 
